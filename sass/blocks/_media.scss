@@ -280,6 +280,7 @@
         &__wrapper{
             min-height: 360px;
             gap: 352px;
+            padding-left: 20px;
             flex-direction: column;
         }
         p{
@@ -288,7 +289,7 @@
         &__element{
             &-1{
                 position: absolute;
-                top: -118px;
+                top: -320px;
                 right: 172px;
                 z-index: 1;
                 width: 380px;
@@ -298,14 +299,14 @@
             }
             &-2{
                 position: absolute;
-                left: -383px;
-                bottom: -64px;
+                left: 520px;
+                bottom: 120px;
                 
             }
             &-3{
                 position: absolute;
-                left: -339px;
-                bottom: 57px;
+                left: 150px;
+                bottom: -70px;
                 z-index: 2;
                 width: 205px;
                 img{
@@ -314,46 +315,42 @@
             }
             &-4{
                 position: absolute;
-                left: -301px;
-                top: -56px;
+                left: 320px;
+                top: -200px;
             }
             &-5{
                 position: absolute;
-                left: -675px;
+                left: 420px;
                 bottom: -65px;
             }
             &-6{
-                position: absolute;
-                right: 420px;
-                top: 175px;
+                display: none;
                
             }
             &-7{
                 position: absolute;
-                right: 264px;
-                top: 211px;
+                right: 443px;
+                top: -210px;
             }
             &-8{
                 position: absolute;
-                right: 261px;
-                top: -4px;
+                right: 600px;
+                top: -100px;
                 z-index: 1;
 
             }
             &-9{
-                width: 230px;
+                width: 170px;
                 position: absolute;
-                right: 290px;
-                top: 95px;
+                right: 175px;
+                top: -340px;
                 z-index: 1;
                 img{
                     width: 100%;
                 }
             }
             &-10{
-                position: absolute;
-                right: 565px;
-                top: -56px;
+               display: none;
             }
             &-11{
                 position: absolute;
@@ -361,22 +358,26 @@
             }
             &-12{
                 position: absolute;
-                right: 457px;
-                top: -52px;
+                right: 401px;
+                top: -137px;
+                width: 60px;
+                img{
+                    width: 100%;
+                }
             }
             &-13{
                 position: absolute;
-                right: 405px;
-                bottom: 150px;
+                right: 490px;
+                bottom: 50px;
                 z-index: 0;
             }
             &-14{
-                position: absolute;
-                left: -200px;
-                top: 279px;
+                display: none;
             }
             &-15{
-               display: none;
+                position: absolute;
+                left: 0;
+                top: -320px;
             }
     }
     }
@@ -387,6 +388,7 @@
         }
         &__form{
             padding: 0 30px 0 30px;
+            padding-bottom: 20px;
             width: 371px;
         }
     }
@@ -484,9 +486,117 @@
             }
         }
     }
+
+
     .about{
         &__title{
             font-size: 26px;
+        }
+    }
+
+    .start{
+        &__wrapper{
+            min-height: 360px;
+            gap: 352px;
+            padding-left: 20px;
+            flex-direction: column;
+        }
+        p{
+            width: 479px;
+        }
+        &__element{
+            &-1{
+                position: absolute;
+                top: -320px;
+                right: 98px;
+                z-index: 1;
+                width: 380px;
+                img{
+                    width: 100%;
+                }
+            }
+            &-2{
+                position: absolute;
+                left: 412px;
+                bottom: 120px;
+                
+            }
+            &-3{
+                position: absolute;
+                left: 150px;
+                bottom: -70px;
+                z-index: 2;
+                width: 205px;
+                img{
+                    width: 100%;
+                }
+            }
+            &-4{
+                position: absolute;
+                left: 288px;
+                top: -200px;
+            }
+            &-5{
+                position: absolute;
+                left: 369px;
+                bottom: -65px;
+            }
+            &-6{
+                display: none;
+               
+            }
+            &-7{
+                position: absolute;
+                right: 370px;
+                top: -210px;
+            }
+            &-8{
+                position: absolute;
+                right: 450px;
+                top: -100px;
+                z-index: 1;
+
+            }
+            &-9{
+                width: 170px;
+                position: absolute;
+                right: 100px;
+                top: -340px;
+                z-index: 1;
+                img{
+                    width: 100%;
+                }
+            }
+            &-10{
+               display: none;
+            }
+            &-11{
+                position: absolute;
+                left: 200px;
+            }
+            &-12{
+                position: absolute;
+                right: 340px;
+                top: -137px;
+                width: 60px;
+                img{
+                    width: 100%;
+                }
+            }
+            &-13{
+                position: absolute;
+                right: 412px;
+                bottom: 50px;
+                z-index: 0;
+            }
+            &-14{
+                display: none;
+            }
+            &-15{
+                position: absolute;
+                left: 0;
+                top: -320px;
+            }
         }
     }
     .request{
@@ -605,6 +715,123 @@
     .start{
         p{
             width: 100%;
+        }
+        &__descr{
+            gap: 15px;
+        }
+        &__element{
+            &-1{
+                position: absolute;
+                top: -320px;
+                right: -15px;
+                z-index: 1;
+                width: 380px;
+                img{
+                    width: 100%;
+                }
+            }
+            &-2{
+                position: absolute;
+                left: 228px;
+                bottom: 120px;
+                img{
+                    width: 100%;
+                }
+                
+            }
+            &-3{
+                position: absolute;
+                left: 0px;
+                bottom: -70px;
+                z-index: 2;
+                width: 205px;
+                img{
+                    width: 100%;
+                }
+            }
+            &-4{
+                position: absolute;
+                left: 166px;
+                top: -166px;
+                width: 100px;
+                img{
+                    width: 100%;
+                }
+            }
+            &-5{
+                position: absolute;
+                left: 190px;
+                bottom: -65px;
+                width: 80px;
+                z-index: 2;
+                img{
+                    width: 100%;
+                }
+            }
+            &-6{
+                display: none;
+               
+            }
+            &-7{
+                position: absolute;
+                right: 200px;
+                top: -180px;
+                width: 80px;
+                img{
+                    width: 100%;
+                }
+            }
+            &-8{
+                position: absolute;
+                right: 230px;
+                top: -100px;
+                z-index: 1;
+                width: 70px;
+                img{
+                    width: 100%;
+                }
+
+            }
+            &-9{
+                width: 170px;
+                position: absolute;
+                right: -6px;
+                top: -340px;
+                z-index: 1;
+                img{
+                    width: 100%;
+                }
+            }
+            &-10{
+               display: none;
+            }
+            &-11{
+                position: absolute;
+                left: 200px;
+            }
+            &-12{
+                position: absolute;
+                right: 213px;
+                top: -137px;
+                width: 60px;
+                img{
+                    width: 100%;
+                }
+            }
+            &-13{
+                position: absolute;
+                right: 200px;
+                bottom: 50px;
+                z-index: 0;
+            }
+            &-14{
+                display: none;
+            }
+            &-15{
+                position: absolute;
+                left: 0;
+                top: -320px;
+            }
         }
     }
     .request{
