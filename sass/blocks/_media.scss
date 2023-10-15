@@ -7,6 +7,10 @@
             display: none;
         }
     }
+    
+    .hamburger{
+        display: flex;
+    }
     .services{
         &__wrapper{
             grid-template-columns: repeat(2,minmax(465px,637px));
@@ -191,6 +195,9 @@
     .container{
         width: 720px;
     }
+    .hidden-header{
+        width: 50%;
+    }
     .promo{
         font-size: 17px;
         &__descr{
@@ -272,9 +279,8 @@
     .start{
         &__wrapper{
             min-height: 360px;
-            gap: 359px;
-            padding-left: 30px;
-            padding-right: 30px;
+            gap: 352px;
+            flex-direction: column;
         }
         p{
             width: 479px;
@@ -285,7 +291,7 @@
                 top: -118px;
                 right: 172px;
                 z-index: 1;
-                width: 420px;
+                width: 380px;
                 img{
                     width: 100%;
                 }
@@ -301,7 +307,7 @@
                 left: -339px;
                 bottom: 57px;
                 z-index: 2;
-                width: 230px;
+                width: 205px;
                 img{
                     width: 100%;
                 }
@@ -359,10 +365,15 @@
                 top: -52px;
             }
             &-13{
-               display: none;
+                position: absolute;
+                right: 405px;
+                bottom: 150px;
+                z-index: 0;
             }
             &-14{
-                display: none;
+                position: absolute;
+                left: -200px;
+                top: 279px;
             }
             &-15{
                display: none;
@@ -396,10 +407,8 @@
     .container{
         width: 540px;
     }
-    .header{
-        &__navigation{
-            height: 61px;
-        }
+    .hidden-header{
+        width: 100%;
     }
     .promo{
         padding-top: 100px;
@@ -548,6 +557,7 @@
             font-size: 26px;
         }
     }
+    
     .services{
        &__item{
             padding: 60px 10px;
