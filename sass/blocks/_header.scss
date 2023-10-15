@@ -1,0 +1,104 @@
+.hamburger{
+  position: absolute;
+  top: 40px;
+  right: 235px;
+  height: 22px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-end;
+  cursor: pointer;
+  span{
+      display: block;    
+      width: 30px;
+      height: 3px;
+      background-color: white;
+  }
+  
+}
+
+
+.header {
+    background-color: $header-color;
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+    
+    &__navigation{
+      height: 107px;
+      display: flex;
+      width: 100%;
+      padding: 17px 0;
+      justify-content: space-between;
+    }
+    &__logo {
+      width: 132px;
+      height: 71.591px;
+      img{
+        width: 100%;
+      }
+    }
+    nav{
+      display: flex;
+      flex-wrap: wrap;
+      align-content:center;
+    }
+    &__notice {
+      margin-top: 20px;
+      font-size: 14px;
+      line-height: 21px;
+      width: 140px;
+      height: 32px;
+      background-color: $dark-blue-color;
+      color: white;
+      border-radius: 4px;
+      display: flex;
+      flex-wrap: wrap;
+      align-content:center;
+      justify-content: center;
+    }
+    
+    &__menu {
+      display: flex;
+      list-style-type: none;
+      justify-content: center;
+      gap: 30px;
+    }
+    &__link {
+      line-height: 27px; /* 27px */
+      
+      &:first-child {
+        padding-left: 0;
+      }
+      a {
+        color: white;
+        text-decoration: none;
+      }
+    }
+    &__socials{
+      width: 93px;
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: space-between;
+    }
+    &__language{
+      line-height: 27px; /* 27px */
+      display: flex;
+      flex-wrap: wrap;
+      align-content: center;
+      color: white;
+      display: flex;
+      flex-wrap: wrap;
+      &-selected{
+        color: $dark-green-color;
+      }
+      a{
+        text-decoration: none;
+      }
+      span{
+        margin: 0 2px;
+      }
+    } 
+    
+}

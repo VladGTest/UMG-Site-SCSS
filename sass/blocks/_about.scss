@@ -1,0 +1,30 @@
+.about{
+    padding-top: 110px;
+    background-color: $main-background-color;
+    text-align: center;
+    &__sponsors{
+        padding-top: 31px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 29px;
+        
+    }
+    &__item{
+        width: 304px;
+        height: 126px;
+        background-color: white;
+        border-radius: 4px;
+        display: flex;
+        align-content: center;
+        flex-wrap: wrap;
+        justify-content: center;
+        &-img{
+            display: flex;
+            img{
+                width: 100%;
+            }
+        }
+        
+    }
+}

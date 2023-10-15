@@ -1,0 +1,46 @@
+.promo{
+    padding-top: 125px;
+    background-color: $dark-blue-color;
+    height: 675px;
+    a{
+        text-decoration: none;
+        &:last-child{
+            position: relative;
+            @include before_romb;
+        }
+    }
+    &__wrapper{
+        display: flex;
+        justify-content: space-between;
+    }
+    &__descr{
+        width: 480px;
+    }
+    &__links{
+        line-height: 31.5px; /* 31.5px */
+        color: #80929A;
+    }
+    &__link{
+        padding-right: 20px;
+        color: #80929A;
+        text-decoration: none;
+        &-selected{
+            color: white;
+        }
+    }
+    &__title{
+        color:white;
+        padding-top: 53px;
+        line-height: 55px;
+    }
+    p{
+        width: 445px;
+        padding-top: 19px;
+        line-height: 31.5px; 
+        color:white;
+    }
+    &__btn{
+        position: relative;
+        margin-top: 35px;   
+    }
+}
