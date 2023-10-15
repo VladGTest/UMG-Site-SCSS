@@ -2,7 +2,7 @@
     padding-top: 120px;
     background-color: $main-background-color;
     &__wrapper{
-        background: no-repeat url('../img/Gradient-Background-Big.png');
+        background: url('../img/Gradient-Background-Big.png') center center/cover no-repeat;
         min-height: 395px;
         color: white;
         gap: 460px;
