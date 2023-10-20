@@ -22,7 +22,7 @@
     background-color: $header-color;
     position: fixed;
     width: 100%;
-    z-index: 10;
+    z-index: 100;
     
     &__navigation{
       height: 107px;
@@ -109,7 +109,7 @@
     left: -100%;
     width: 30%;
     height: 100vh;
-    z-index: 10;
+    z-index: 100;
     visibility: hidden;
     opacity: 0;
     transition: 0.6s all;
@@ -194,6 +194,9 @@
       &__message{
         color: white;
         margin-bottom: 20px;
+        a{
+          color: black;
+        }
       }
       &__overlay{
         position: fixed;

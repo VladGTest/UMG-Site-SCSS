@@ -23,6 +23,9 @@
         display: flex;
         justify-content: space-between;
         column-gap: 23px;
+        a{
+            color: black;
+        }
     }
     &__countries{
         padding-top: 45px;

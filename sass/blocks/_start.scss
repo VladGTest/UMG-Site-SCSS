@@ -12,6 +12,7 @@
     }
     &__elements{
         position: relative;
+        z-index: 1;
     }
     &__element{
         &-1{
@@ -104,8 +105,8 @@
         line-height: 55px;
     }
     &__btn{
-        width: 151px;
         background-color: $dark-green-color;
+        @include button-animate(white, $dark-green-color);
     }
 
 }

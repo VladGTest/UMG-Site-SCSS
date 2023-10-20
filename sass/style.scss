@@ -6,6 +6,8 @@
 
 
 
+
+
 *{
     font-family: Roboto;
     font-weight: 400;
@@ -13,6 +15,7 @@
     margin: 0;
     padding: 0;
     box-sizing:border-box;
+    text-decoration: none;
 }
 
 html {
@@ -34,3 +37,11 @@ html {
 @import 'blocks/request';
 @import 'blocks/footer';
 @import 'blocks/media';
+
+
+a{
+    transition: all 0.6s;
+    &:hover{
+        color: $dark-green-color;
+    }
+}

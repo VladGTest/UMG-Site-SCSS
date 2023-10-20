@@ -9,10 +9,17 @@
         justify-content: center;
         gap: 29px;
         
+        img{
+            display: block;
+            max-width: 100%;
+            max-height:100%;
+        }
+        
     }
     &__item{
         width: 304px;
         height: 126px;
+        padding: 20px 20px;
         background-color: white;
         border-radius: 4px;
         display: flex;
@@ -21,9 +28,6 @@
         justify-content: center;
         &-img{
             display: flex;
-            img{
-                width: 100%;
-            }
         }
         
     }

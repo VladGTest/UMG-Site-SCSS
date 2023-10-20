@@ -12,3 +12,10 @@
     }
    
 }
+
+@mixin button-animate($text,$back){
+    &:hover{
+        background-color: $back;
+        color: $text;
+    }
+}
