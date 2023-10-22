@@ -59,6 +59,7 @@
             }
             &-course{
                 width: 430px;
+                line-height: 18.5px;
             }
         }
     
@@ -99,7 +100,7 @@
             }
             &-3{
                 position: absolute;
-                left: -180px;
+                left: -187px;
                 bottom: 8px;
                 z-index: 2;
                 width: 265px;
@@ -259,12 +260,12 @@
             &-img{
                 width: 420px;
                 top: 55px;
-                right: -35px;
+                right: -20px;
             }
             &-course{
-                padding: 15px 13px 45px 29px;
+                padding: 15px 13px 11px 29px;
                 width: 340px;
-                line-height: 27px;
+                line-height: 18px;
                 @include before_romb;
                 &::before{
                     content: " ";
@@ -699,12 +700,13 @@
                 width: 100%;
             }
             &-course{
-                padding: 10px 9px 20px 25px;
+                padding: 22px 9px 22px 25px;
+                line-height: 20px;
                 @include before_romb;
                 &:before{
                     content: " ";
                     left: 10px;
-                    top: 20px;
+                    top: 28px;
                     background-color: #00735c;
                 }
 
@@ -723,7 +725,7 @@
             &-1{
                 position: absolute;
                 top: -320px;
-                right: -15px;
+                right: 3px;
                 z-index: 1;
                 width: 380px;
                 img{
@@ -835,7 +837,6 @@
         }
     }
     .request{
-       
         input, &__btn{
             width: 100%;
         }

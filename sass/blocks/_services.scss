@@ -101,6 +101,9 @@
             position: absolute;
             right: 0;
             top: -11px;
+            img{
+                width: 100%;
+            }
         }
         &-title{
             color: white;
@@ -111,7 +114,7 @@
             overflow: hidden;
             background-color: white;
             border-radius: 4px;
-            padding: 18px 29px 20px 57px;
+            padding: 18px 120px 20px 57px;
             line-height: 31.5px;
             position: relative;
             color: $dark-green-color;
