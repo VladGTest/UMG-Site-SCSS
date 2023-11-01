@@ -13,6 +13,21 @@
    
 }
 
+@mixin after_romb{
+    &:after{
+        content: '';
+        z-index: 1;
+        position: absolute;
+        right: 4px;
+        top: 8px;
+        width: 6px;
+        height: 6px;
+        transform: rotate(45deg);
+        background-color: #80929A;
+    }
+   
+}
+
 @mixin button-animate($text,$back){
     &:hover{
         background-color: $back;

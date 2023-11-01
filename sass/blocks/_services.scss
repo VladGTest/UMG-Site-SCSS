@@ -49,7 +49,6 @@
     &__details{
         margin-top: 30px;
         display: flex;
-        justify-content: space-between;
         padding: 53px 111px 60px 59px;
         color: white;
         min-height: 520px;
@@ -64,7 +63,7 @@
             width: 447px;
             display: flex;
             flex-direction: column;
-            justify-content: space-around;
+            row-gap: 20px;
             line-height: 27px;
         }
         &-title{

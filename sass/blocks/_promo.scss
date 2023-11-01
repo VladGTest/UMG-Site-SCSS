@@ -14,11 +14,11 @@
     &__links{
         line-height: 31.5px; /* 31.5px */
         color: #80929A;
-        a{
-            &:last-child{
-                position: relative;
-                @include before_romb;
-            }
+        a:not(a:last-child){
+          
+            position: relative;
+            @include after_romb;
+            
         }
     }
     &__link{
@@ -26,6 +26,7 @@
         color: #80929A;
         &-selected{
             color: white;
+            padding-right: 20px;
         }
     }
     &__title{
