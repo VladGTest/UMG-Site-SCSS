@@ -3,9 +3,40 @@
         width: 960px;
     }
     .header{
-        &__menu, &__notice, &__language, &__socials{
+        // &__menu, &__notice, &__language, &__socials{
+        //     display: none;
+        // }
+        &__navigation{
+            flex-direction: column;
+            &-wrapper{
+                transition: all 0.6s;
+                flex-direction: column;
+                position: fixed;
+                top: 107px;
+                background-color: $dark-blue-color;
+                left: -100%;
+                height: 100vh;
+                width: 100%;
+                
+            }
+            
+        }
+        &__menu{
+            flex-direction: column;
+            gap: 20px;
+        }
+        &__notice{
+            background-color: $header-color;
+            margin-bottom: 30px;
+            line-height: 33px;
+        }
+        &__language{
             display: none;
         }
+        &__phone, &__email{
+            display: block;
+        }
+        
     }
     
     .hamburger{

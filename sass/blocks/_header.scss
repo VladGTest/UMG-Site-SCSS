@@ -47,11 +47,21 @@
     z-index: 100;
     
     &__navigation{
+      
       height: 107px;
       display: flex;
       width: 100%;
       padding: 17px 0;
       justify-content: space-between;
+      &-wrapper{
+        display: flex;
+        column-gap: 65px;
+        &.active{
+          left: 0;
+          visibility: visible;
+          opacity: 1;
+        }
+      }
     }
     &__logo {
       width: 132px;
@@ -121,7 +131,11 @@
       span{
         margin: 0 2px;
       }
-    } 
+    }
+    &__email, &__phone{
+        display: none;
+    }
+   
     
 }
 

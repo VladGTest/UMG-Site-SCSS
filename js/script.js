@@ -1,5 +1,5 @@
 const hamburger = document.querySelector('.hamburger');
-const menu = document.querySelector('.hidden-header');
+const menu = document.querySelector('.header__navigation-wrapper');
 
 const closeElem = document.querySelector('.hamburger');
 
