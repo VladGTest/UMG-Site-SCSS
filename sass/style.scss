@@ -23,7 +23,12 @@ html {
 .container{
     width: 1304px;
     margin: 0 auto;
+    &__wrapper{
+        display: flex;
+        column-gap: 65px;
+    }
 }
+
 
 @import 'blocks/button';
 @import 'blocks/title';

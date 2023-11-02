@@ -15,16 +15,15 @@
     &__item{
         display: flex;
         flex-direction: column;
-        justify-content: space-between;
         background-color: white;
         padding: 60px 60px;
         border-radius: 4px;
         &-subtitle{
             width: 518px;
+            
         }
         
         &-list{
-            margin-top: 35px;
             background-color: $main-background-color;
             padding: 19px 29px 20px 57px;
             list-style-type: none;

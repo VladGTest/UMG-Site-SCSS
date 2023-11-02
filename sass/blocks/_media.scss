@@ -1,7 +1,13 @@
 @media (max-width:1430px) {
     .container{
         width: 960px;
+        &__wrapper{
+            display: block;
+            width: 960px;
+            margin: 0 auto;
+        }
     }
+
     .header{
         // &__menu, &__notice, &__language, &__socials{
         //     display: none;
@@ -11,30 +17,40 @@
             &-wrapper{
                 transition: all 0.6s;
                 flex-direction: column;
-                position: fixed;
+                position: absolute;
                 top: 107px;
                 background-color: $dark-blue-color;
                 left: -100%;
                 height: 100vh;
                 width: 100%;
-                
             }
             
         }
+        nav{
+            margin-bottom: 100px;
+        }
         &__menu{
             flex-direction: column;
-            gap: 20px;
+            gap: 15px;
         }
         &__notice{
             background-color: $header-color;
-            margin-bottom: 30px;
+            margin-bottom: 10px;
             line-height: 33px;
         }
         &__language{
             display: none;
         }
+        &__socials{
+            margin-bottom: 20px;
+        }
         &__phone, &__email{
+            margin-bottom: 10px;
             display: block;
+            color: white;
+            a{
+                color: white;
+            }
         }
         
     }
@@ -229,6 +245,11 @@
 @media(max-width:992px){
     .container{
         width: 720px;
+        &__wrapper{
+            margin: 0 auto;
+            display: block;
+            width: 720px;
+        }
     }
     
     .promo{
@@ -441,6 +462,11 @@
 @media(max-width: 768px){
     .container{
         width: 540px;
+        &__wrapper{
+            width: 540px;
+            margin: 0 auto;
+            display: block;
+        }
     }
     .hidden-header{
         width: 100%;
@@ -679,6 +705,12 @@
     .container{
         width:  100%;
         padding: 0 10px;
+        &__wrapper{
+            width: 100%;
+            margin: 0 auto;
+            display: block;
+            padding: 0 10px;
+        }
     }
     .promo{
        
